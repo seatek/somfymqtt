@@ -120,3 +120,5 @@ docker {
     }
 }
 
+tasks.compileJava.dependsOn('openApiGenerate')
+
